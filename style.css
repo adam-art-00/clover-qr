@@ -1,0 +1,33 @@
+body {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.7;
+    background-color: #efe9ff;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 50px;
+    position: absolute;
+    top:8%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+}
+
+h2{
+    font-size: 20px;
+    position: absolute;
+    top:13%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+}
